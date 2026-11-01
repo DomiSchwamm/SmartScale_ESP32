@@ -13,7 +13,7 @@ Eine Küchenwaage auf ESP32 Basis, die beim Wiegen direkt die Kohlenhydrate (KH)
 - Freie Eingabe von KH pro 100 g mit einer Nachkommastelle, falls ein Lebensmittel nicht gespeichert ist
 - Mehrere Lebensmittel zu einer Mahlzeit aufsummieren
 - Auswahl über Anfangsbuchstaben, bedient mit einem Drehencoder
-- Tara per langem Knopfdruck
+- Tara per langem Knopfdruck und vor jedem Wiegen
 - Weboberfläche über ein eigenes WLAN der Waage: Lebensmittel hinzufügen, löschen, Sicherung herunterladen und wieder einspielen
 - Automatischer Deep Sleep nach längerer Inaktivität, geweckt wird per Knopfdruck
 
