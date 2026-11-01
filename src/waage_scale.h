@@ -20,11 +20,10 @@ inline void gewichtPufferLeeren() {
     gewichtPufferPos = 0;
 }
 
-// Initialisiert die Wägezelle und führt eine Tara Kalibrierung durch
+// Initialisiert die Wägezelle
 inline void setupScale() {
     scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
     scale.set_scale(KALIBRIERFAKTOR);
-    scale.tare();
 }
 
 // Liest das Gewicht in Gramm aus. Blockiert nicht, sondern verwendet bei fehlenden Neugewichten den letzten Wert, 

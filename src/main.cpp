@@ -114,7 +114,7 @@ static void verarbeiteDrehung() {
 static void starteWiegen() {
     aktuellerModus = WIEGEN;
     aktuellesGewicht = 0.0;
-    gewichtPufferLeeren();
+    tareWaage();
 }
 
 // Führt kontextabhängige Aktionen basierend auf Tastendruck und Modus aus
